@@ -18,6 +18,7 @@ env/
 
 # Data & artifacts (keep folder structure, ignore contents)
 data/raw/*
+!data/raw/download_data.py
 data/processed/*
 data/prices/*
 models/*
