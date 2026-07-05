@@ -1,0 +1,33 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Data & artifacts (keep folder structure, ignore contents)
+data/raw/*
+data/processed/*
+data/prices/*
+models/*
+logs/*
+checkpoints/*
+!**/.gitkeep
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
